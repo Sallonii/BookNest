@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="index.css" rel="stylesheet" >
+    <title>BookNest</title>
+</head>
+<body> 
+    <div class="main-container">           
+        <div class="sidebar">
+            <div class="sidebar-logo">  
+                <span>BN</span>
+                <div>
+                    <h1 class="sidebar-logo-heading">BookNest</h1>
+                    <p class="sidebar-logo-para">Curated Shelves . Cozy Vibes</p>
+                </div>
+            </div>
+            <ul class="category-container">
+                <li class="category-item">
+                📖 Fiction
+                </li>
+                <li class="category-item">
+                    📚 Non-Fiction 
+                </li>
+                <li class="category-item">
+                    🍀Self-Help
+                </li>
+                <li class="category-item">
+                    💻 Tech
+                </li>       
+                <li class="category-item">
+                ⌛ History            
+                </li>          
+            </ul>
+            <hr />
+            <div class="sidebar-btn-container">   
+                <button class="sidebar-btn">       
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                     <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
+                    </svg>
+                    Recommended
+                </button>
+                <button class="sidebar-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-dash" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M5.5 10a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5"/>
+                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                    </svg>
+                    New Arrivals
+                </button>
+            </div>   
+        </div>
+        <div class="banner-section"> 
+            <div class="banner-greeting-section">  
+                <div>
+                    <h1>Welcome back,<br/>User 👋</h1>  
+                <p>Here's what's on your shelf and what others are loving today.</p>  
+                </div>
+                <div>     
+                    <h1 class="current-reading">Current Reading<p class="current-reading-text ">"The Quite Mind"</p></h1>   
+                    <p class="tip-para">Tip: Hover a book to reveal rating & reviews</p>
+                    <div class="book-card">
+                        <img class="book-img" src="placeholder.jpg" alt="The Satanic Verses" />
+                        <div>
+                            <div class="rating-card">                            
+                                <p>Ratings</p>
+                                <p>3.4 • 2,134 reviews</p>
+                                <p>“A practical and calm guide to daily practice.”</p>
+                            </div>
+                            <h1 class="book-name">The Quiet Mind</h1> 
+                            <p class="author">by A. Sharma • Ch. 5 of 12</p>
+                            <p class="category">Fiction</p>       
+                            <div class="ratings">  
+                                <i class="fas fa-star rating-item"></i>
+                                <i class="fas fa-star rating-item"></i>     
+                                <i class="fas fa-star rating-item"></i>    
+                                <i class="fas fa-star-half-alt rating-item"></i>                               
+                            </div>   
+                    </div>  
+                </div>      
+                </div>  
+            </div>   
+            <div class="library-section">
+                <h1 class="library-heading">Your Library Shelf</h1>
+                <ul class="library-cards-ul">
+                    <li class="library-card-li">
+                        <div class="book-card">
+                        <img class="book-img" src="placeholder.jpg" alt="The Satanic Verses" />
+                        <div>
+                            <div class="rating-card">                            
+                                <p>Ratings</p>
+                                <p>3.4 • 2,134 reviews</p>
+                                <p>“A practical and calm guide to daily practice.”</p>
+                            </div>
+                            <h1 class="book-name">CSS for Designers</h1> 
+                            <p class="author">S. Patel</p>
+                            <p class="category">Design</p>       
+                            <div class="ratings">  
+                                <i class="fas fa-star rating-item"></i>
+                                <i class="fas fa-star rating-item"></i>     
+                                <i class="fas fa-star rating-item"></i> 
+                                <i class="fas fa-star-half-alt rating-item"></i>                               
+                            </div>   
+                    </div> 
+                </div>    
+                    </li>
+                    <li class="library-card-li">
+                        <div class="book-card">
+                        <img class="book-img" src="placeholder.jpg" alt="The Satanic Verses" />
+                        <div>
+                            <div class="rating-card">                            
+                                <p>Ratings</p>
+                                <p>3.4 • 2,134 reviews</p>
+                                <p>“A practical and calm guide to daily practice.”</p>
+                            </div>
+                            <h1 class="book-name">Startup Patterns</h1> 
+                            <p class="author">R. Mehta</p>
+                            <p class="category">Fiction</p>       
+                            <div class="ratings">  
+                                <i class="fas fa-star rating-item"></i>   
+                                <i class="fas fa-star-half-alt rating-item"></i>                               
+                            </div>   
+                    </div> 
+                </div>    
+                    </li>
+                    <li  class="library-card-li">
+                        <div class="book-card">
+                        <img class="book-img" src="placeholder.jpg" alt="The Satanic Verses" />
+                        <div>
+                            <div class="rating-card">                            
+                                <p>Ratings</p>
+                                <p>3.4 • 2,134 reviews</p>
+                                <p>“A practical and calm guide to daily practice.”</p>
+                            </div>
+                            <h1 class="book-name">The Satanic Verses</h1> 
+                            <p class="author">Salman Rushdie</p>
+                            <p class="category">Fiction</p>       
+                            <div class="ratings">  
+                                <i class="fas fa-star rating-item"></i>
+                                <i class="fas fa-star rating-item"></i>     
+                                <i class="fas fa-star rating-item"></i>    
+                                <i class="fas fa-star-half-alt rating-item"></i>                               
+                            </div>   
+                    </div> 
+                </div>    
+                    </li>
+                    <li  class="library-card-li">
+                        <div class="book-card">
+                        <img class="book-img" src="placeholder.jpg" alt="The Satanic Verses" />
+                        <div>
+                            <div class="rating-card">                            
+                                <p>Ratings</p>
+                                <p>3.4 • 2,134 reviews</p>
+                                <p>“A practical and calm guide to daily practice.”</p>
+                            </div>
+                            <h1 class="book-name">Courageous Steps</h1> 
+                            <p class="author">M. Iyer</p>
+                            <p class="category">Fiction</p>       
+                            <div class="ratings">  
+                                <i class="fas fa-star rating-item"></i>
+                                <i class="fas fa-star rating-item"></i>     
+                                <i class="fas fa-star rating-item"></i>    
+                                <i class="fas fa-star-half-alt rating-item"></i>                               
+                            </div>   
+                    </div> 
+                </div>    
+                    </li>
+                    <li  class="library-card-li">
+                        <div class="book-card">
+                        <img class="book-img" src="placeholder.jpg" alt="The Satanic Verses" />
+                        <div>
+                            <div class="rating-card">                            
+                                <p>Ratings</p>
+                                <p>3.4 • 2,134 reviews</p>
+                                <p>“A practical and calm guide to daily practice.”</p>
+                            </div>
+                            <h1 class="book-name">The Satanic Verses</h1> 
+                            <p class="author">Salman Rushdie</p>
+                            <p class="category">Fiction</p>       
+                            <div class="ratings">  
+                                <i class="fas fa-star rating-item"></i>
+                                <i class="fas fa-star rating-item"></i>     
+                                <i class="fas fa-star rating-item"></i>    
+                                <i class="fas fa-star-half-alt rating-item"></i>                               
+                            </div>   
+                    </div> 
+                </div>    
+                    </li>
+                    <li  class="library-card-li">
+                        <div class="book-card">
+                        <img class="book-img" src="placeholder.jpg" alt="The Satanic Verses" />
+                        <div>
+                            <div class="rating-card">                            
+                                <p>Ratings</p>
+                                <p>3.4 • 2,134 reviews</p>
+                                <p>“A practical and calm guide to daily practice.”</p>
+                            </div>
+                            <h1 class="book-name">The Satanic Verses</h1> 
+                            <p class="author">Salman Rushdie</p>
+                            <p class="category">Fiction</p>       
+                            <div class="ratings">  
+                                <i class="fas fa-star rating-item"></i>
+                                <i class="fas fa-star rating-item"></i>     
+                                <i class="fas fa-star rating-item"></i>    
+                                <i class="fas fa-star-half-alt rating-item"></i>                               
+                            </div>   
+                    </div> 
+                </div>    
+                    </li>
+                </ul>  
+            </div>
+            <div class="library-section">
+                <h1 class="library-heading">Recommended Reads</h1>
+                <ul class="library-cards-ul">
+                    <li class="library-card-li">    
+                        <div class="book-card">
+                        <img class="book-img" src="placeholder.jpg" alt="The Satanic Verses" />
+                        <div>
+                            <div class="rating-card">                            
+                                <p>Ratings</p>
+                                <p>3.4 • 2,134 reviews</p>
+                                <p>“A practical and calm guide to daily practice.”</p>
+                            </div>
+                            <h1 class="book-name">The Satanic Verses</h1> 
+                            <p class="author">Salman Rushdie</p>
+                            <p class="category">Fiction</p>       
+                            <div class="ratings">  
+                                <i class="fas fa-star rating-item"></i>
+                                <i class="fas fa-star rating-item"></i>     
+                                <i class="fas fa-star rating-item"></i>    
+                                <i class="fas fa-star-half-alt rating-item"></i>                               
+                            </div>   
+                    </div> 
+                </div>    
+                    </li>
+                    <li class="library-card-li">
+                        <div class="book-card">
+                        <img class="book-img" src="placeholder.jpg" alt="The Satanic Verses" />
+                        <div>
+                            <div class="rating-card">                            
+                                <p>Ratings</p>
+                                <p>3.4 • 2,134 reviews</p>
+                                <p>“A practical and calm guide to daily practice.”</p>
+                            </div>
+                            <h1 class="book-name">The Satanic Verses</h1> 
+                            <p class="author">Salman Rushdie</p>
+                            <p class="category">Fiction</p>       
+                            <div class="ratings">  
+                                <i class="fas fa-star rating-item"></i>
+                                <i class="fas fa-star rating-item"></i>     
+                                <i class="fas fa-star rating-item"></i>    
+                                <i class="fas fa-star-half-alt rating-item"></i>                               
+                            </div>   
+                    </div> 
+                </div>    
+                    </li>
+                    <li  class="library-card-li">
+                        <div class="book-card">
+                        <img class="book-img" src="placeholder.jpg" alt="The Satanic Verses" />
+                        <div>
+                            <div class="rating-card">                            
+                                <p>Ratings</p>
+                                <p>3.4 • 2,134 reviews</p>
+                                <p>“A practical and calm guide to daily practice.”</p>
+                            </div>
+                            <h1 class="book-name">The Satanic Verses</h1> 
+                            <p class="author">Salman Rushdie</p>
+                            <p class="category">Fiction</p>       
+                            <div class="ratings">  
+                                <i class="fas fa-star rating-item"></i>
+                                <i class="fas fa-star rating-item"></i>     
+                                <i class="fas fa-star rating-item"></i>    
+                                <i class="fas fa-star-half-alt rating-item"></i>                               
+                            </div>   
+                    </div> 
+                </div>    
+                    </li>
+                    <li  class="library-card-li">
+                        <div class="book-card">
+                        <img class="book-img" src="placeholder.jpg" alt="The Satanic Verses" />
+                        <div>
+                            <div class="rating-card">                            
+                                <p>Ratings</p>
+                                <p>3.4 • 2,134 reviews</p>
+                                <p>“A practical and calm guide to daily practice.”</p>
+                            </div>
+                            <h1 class="book-name">The Satanic Verses</h1> 
+                            <p class="author">Salman Rushdie</p>
+                            <p class="category">Fiction</p>       
+                            <div class="ratings">  
+                                <i class="fas fa-star rating-item"></i>
+                                <i class="fas fa-star rating-item"></i>     
+                                <i class="fas fa-star rating-item"></i>    
+                                <i class="fas fa-star-half-alt rating-item"></i>                               
+                            </div>   
+                    </div> 
+                </div>    
+                    </li>
+                    <li  class="library-card-li">
+                        <div class="book-card">
+                        <img class="book-img" src="placeholder.jpg" alt="The Satanic Verses" />
+                        <div>
+                            <div class="rating-card">                            
+                                <p>Ratings</p>
+                                <p>3.4 • 2,134 reviews</p>
+                                <p>“A practical and calm guide to daily practice.”</p>
+                            </div>
+                            <h1 class="book-name">The Satanic Verses</h1> 
+                            <p class="author">Salman Rushdie</p>
+                            <p class="category">Fiction</p>       
+                            <div class="ratings">  
+                                <i class="fas fa-star rating-item"></i>
+                                <i class="fas fa-star rating-item"></i>     
+                                <i class="fas fa-star rating-item"></i>    
+                                <i class="fas fa-star-half-alt rating-item"></i>                               
+                            </div>   
+                    </div> 
+                </div>    
+                    </li>
+                    <li  class="library-card-li">
+                        <div class="book-card">
+                        <img class="book-img" src="placeholder.jpg" alt="The Satanic Verses" />
+                        <div>
+                            <div class="rating-card">                            
+                                <p>Ratings</p>
+                                <p>3.4 • 2,134 reviews</p>
+                                <p>“A practical and calm guide to daily practice.”</p>
+                            </div>
+                            <h1 class="book-name">The Satanic Verses</h1> 
+                            <p class="author">Salman Rushdie</p>
+                            <p class="category">Fiction</p>       
+                            <div class="ratings">  
+                                <i class="fas fa-star rating-item"></i>
+                                <i class="fas fa-star rating-item"></i>     
+                                <i class="fas fa-star rating-item"></i>    
+                                <i class="fas fa-star-half-alt rating-item"></i>                               
+                            </div>   
+                    </div> 
+                </div>    
+                    </li>
+                </ul>  
+            </div>       
+        </div>          
+    </div>            
+</body>    
+</html>                         
